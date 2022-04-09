@@ -1,12 +1,13 @@
 git init
 
 # copy sh github repo address
-git remote add origin git@github.com:rnalus2022gh/github-actions-test.git
+git remote add origin git@github.com:rnalus2022gh/github-actions-rome.git
 git remote -v
     origin  git@github.com:rnalus2022gh/github-actions-test.git (fetch)
     origin  git@github.com:rnalus2022gh/github-actions-test.git (push)
 
 git remote rm origin
+rm -rf .git/
 
 git add .
 git commit -m " 1st"
