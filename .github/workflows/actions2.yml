@@ -1,29 +1,21 @@
-name: Shell Commands
+name: Actions Workflow 
 
 on: [push]
 
 jobs: 
-  run-shell-command:
+  run-github-actions: 
     runs-on: ubuntu-latest
-    steps: 
-    - name: echo a string
-      run: echo "Hello World!"
-    - name: multiline
-      run: |
-        node -v
-        npm -v
-        hostname
-    - name: python Commands
-      run: |
-        import platform
-        print(platform.processor())
-      shell: python
-  run-windows-commands:
-    runs-on: windows-latest
-    needs: ["run-shell-command"]
     steps:
-      - name: Directory PS
-        run: Get-Location
-      - name: Directory Bash
-        run: pwd
-        shell: bash
+      - name: Checkout 
+        uses: actions/checkout@v1
+      - name: List Files After Checkout
+        run: |
+          pwd
+          ls -a
+      - name: Simple JS Action
+        id: greet 
+        uses: actions/hello-world-javascript-action@v1
+        with: 
+          who-to-greet: Rome
+      - name: Log Greeting Time
+        run: echo "${{ steps.greet.outputs.time }}"
