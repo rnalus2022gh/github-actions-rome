@@ -13,7 +13,7 @@ git add .
 git commit -m " 1st"
 git push --set-upstream origin main/master
 
-git push -o merge_request.create master dev
+git push -o merge_request.create origin master
 https://dev.to/farnabaz/gitlab-create-merge-requests-from-cli-c36
     
 Enabling debug logging
