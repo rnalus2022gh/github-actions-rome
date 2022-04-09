@@ -54,10 +54,11 @@ git diff dev
 git pull origin master ( to get update from master to your branch)
 
 # Create a new Branch
-git checkout -b dev
+git checkout -b dev ( create and checkout a new branch)
     Switched to a new branch 'dev'
 git add -A
 git commit -m "Comments"
+# git commit -am "quick"
 git push
     fatal: The current branch dev has no upstream branch.
     To push the current branch and set the remote as upstream, use
