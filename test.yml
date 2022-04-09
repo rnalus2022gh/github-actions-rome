@@ -3,5 +3,5 @@ age: 47
 address: "singapore: bedok"
 active: true
 key:
-  key1: value 
-  key2: value
+  key1: value1 
+  key2: value2
