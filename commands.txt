@@ -1,4 +1,12 @@
+https://www.youtube.com/watch?v=RGOj5yH7evk
+create folder locally
 git init
+git add .
+git commit -m "comment" -m "description"
+git remote add origin git@github.com:rnalus2022gh/demo-repo.git
+git remote -v
+git push or #git push -u origin master (upstream shortcut)
+
 
 # copy sh github repo address
 git remote add origin git@github.com:rnalus2022gh/github-actions-rome.git
@@ -8,6 +16,12 @@ git remote -v
 
 git remote rm origin
 rm -rf .git/
+
+git status
+ssh-keygen -t rsa -b 4096 -C "rcnalus@outlook.com" (same email as github email)
+cd C:/users/rome/.ssh/
+cat C:/users/rome/.ssh/id_rsa
+cd - (shortcut to previous folder)
 
 git add .
 git commit -m " 1st"
