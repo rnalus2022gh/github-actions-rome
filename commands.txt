@@ -19,6 +19,23 @@ https://dev.to/farnabaz/gitlab-create-merge-requests-from-cli-c36
 Enabling debug logging
 https://docs.github.com/en/enterprise-server@3.1/actions/monitoring-and-troubleshooting-workflows/enabling-debug-logging
 
+Merging via command line
+Merging via command line
+If you do not want to use the merge button or an automatic merge cannot be performed, 
+you can perform a manual merge on the command line. 
+However, the following steps are not applicable if the base branch is protected.
+
+Step 1: From your project repository, bring in the changes and test.
+
+git fetch origin
+git checkout -b dev origin/dev
+git merge master
+Step 2: Merge the changes and update on GitHub.
+
+git checkout master
+git merge --no-ff dev
+git push origin master
+
 # Create a new Branch
 git checkout -b dev
     Switched to a new branch 'dev'
