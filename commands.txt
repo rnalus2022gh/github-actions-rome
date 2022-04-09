@@ -9,6 +9,7 @@ git remote -v
 git remote rm origin
 rm -rf .git/
 
+git status
 git add .
 git commit -m " 1st"
 git push --set-upstream origin main/master
