@@ -45,3 +45,11 @@ git push
     fatal: The current branch dev has no upstream branch.
     To push the current branch and set the remote as upstream, use
 git push --set-upstream origin dev
+
+#Delete a branch
+https://www.cloudbees.com/blog/git-delete-branch-how-to-for-both-local-and-remote
+
+git branch -d dev
+git push origin --delete dev
+    To github.com:rnalus2022gh/github-actions-rome.git
+    - [deleted]         dev
