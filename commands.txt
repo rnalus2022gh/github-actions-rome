@@ -12,6 +12,9 @@ rm -rf .git/
 git add .
 git commit -m " 1st"
 git push --set-upstream origin main/master
+
+git push -o merge_request.create master dev
+https://dev.to/farnabaz/gitlab-create-merge-requests-from-cli-c36
     
 Enabling debug logging
 https://docs.github.com/en/enterprise-server@3.1/actions/monitoring-and-troubleshooting-workflows/enabling-debug-logging
