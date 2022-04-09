@@ -47,7 +47,7 @@ git merge master (gets files from the master branch)
 Step 2: Merge the changes and update on GitHub.
 
 git checkout master
-git merge --no-ff dev (gets file from the dev branch)
+git merge --no-ff dev (gets file from the dev branch) or git merge dev
 git push origin master
 
 git diff dev 
