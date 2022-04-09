@@ -10,6 +10,11 @@ git remote rm origin
 rm -rf .git/
 
 git status
+ssh-keygen -t rsa -b 4096 -C "rcnalus@outlook.com" (same email as github email)
+cd C:/users/rome/.ssh/
+cat C:/users/rome/.ssh/id_rsa
+cd - (shortcut to previous folder)
+
 git add .
 git commit -m " 1st"
 git push --set-upstream origin main/master
