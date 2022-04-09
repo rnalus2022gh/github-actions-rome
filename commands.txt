@@ -43,11 +43,11 @@ Step 1: From your project repository, bring in the changes and test.
 
 git fetch origin
 git checkout -b dev origin/dev
-git merge master
+git merge master (gets files from the master branch)
 Step 2: Merge the changes and update on GitHub.
 
 git checkout master
-git merge --no-ff dev
+git merge --no-ff dev (gets file from the dev branch)
 git push origin master
 
 # Create a new Branch
