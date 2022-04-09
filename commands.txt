@@ -58,7 +58,7 @@ git checkout -b dev ( create and checkout a new branch)
     Switched to a new branch 'dev'
 git add -A
 git commit -m "Comments"
-# git commit -am "quick"
+# git commit -am "quick" (shortcut)
 git push
     fatal: The current branch dev has no upstream branch.
     To push the current branch and set the remote as upstream, use
@@ -73,3 +73,11 @@ git branch -d dev
 git push origin --delete dev
     To github.com:rnalus2022gh/github-actions-rome.git
     - [deleted]         dev
+
+git reset ( unstage changes)
+git reset HEAD~1 (one commit further to unstage/uncommitted)
+git log
+git reset c8538c5f4b143f5a3f5a8a6d81802985d8d10d68 (unstage after this commit)
+git reset --hard c8538c5f4b143f5a3f5a8a6d81802985d8d10d68 (completely remove files)
+
+FORKING
