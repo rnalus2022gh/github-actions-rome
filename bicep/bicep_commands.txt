@@ -1,0 +1,34 @@
+Bicep MS Learn
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/learn-bicep
+
+Bicep CLI commands
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/bicep-cli
+
+Quickstart: Create Bicep files with Visual Studio Code
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/quickstart-create-bicep-use-visual-studio-code?tabs=CLI
+
+Param, Var, Expressions
+https://docs.microsoft.com/en-us/learn/modules/build-first-bicep-template/5-add-flexibility-parameters-variables
+
+Param:
+param appServiceAppName string
+param appServiceAppName string = 'toy-product-launch-1'
+Var:
+var appServicePlanName = 'toy-product-launch-plan'
+Expressions:
+param location string = resourceGroup().location
+
+Unique Strings: Resource names
+param storageAccountName string = uniqueString(resourceGroup().id)
+
+resourceGroup ID sample:
+/subscriptions/3e57e557-826f-460b-8f1c-4ce38fd53b32/resourceGroups/MyResourceGroup
+
+Combined strings
+param storageAccountName string = 'toylaunch${uniqueString(resourceGroup().id)}'
+
+
+
+
+
+
