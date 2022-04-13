@@ -5,10 +5,15 @@ git remote add origin git@github.com:rnalus2022gh/github-actions-rome.git
 git remote -v
 git push or #git push -u origin master (upstream shortcut)
 
+======================REFERENCES
 Managing workflow runs - Enabling-debug-logging
 https://docs.github.com/en/actions/managing-workflow-runs#enabling-debug-logging
 Checkout Usage
 https://github.com/actions/checkout#usage
+Crontab Guru
+https://crontab.guru/
+https://crontab.guru/examples.html
+
 
 # copy sh github repo address
 git remote add origin git@github.com:rnalus2022gh/github-actions-rome.git
