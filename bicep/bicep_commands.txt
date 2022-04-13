@@ -1,6 +1,25 @@
 Bicep MS Learn
 https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/learn-bicep
 
+Understanding and Using Project BICEP - The NEW Azure Deployment Technology
+https://www.youtube.com/watch?v=_yvb6NVx61Y
+
+Azure Bicep March 2021: Learn everything about the next generation of ARM Templates
+https://www.youtube.com/watch?v=l85qv_1N2_A
+
+Git Azure Bicep
+https://github.com/Azure/bicep
+https://github.com/Azure/bicep/tree/main/docs/examples
+
+Azure Resource Manager template specs
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-specs?tabs=azure-powershell
+
+Azure Resource Explorer: a new tool to discover the Azure API
+https://azure.microsoft.com/en-us/blog/azure-resource-explorer-a-new-tool-to-discover-the-azure-api/
+
+Fundamentals of Bicep
+https://docs.microsoft.com/en-us/learn/paths/fundamentals-bicep/
+
 Bicep CLI commands
 https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/bicep-cli
 
@@ -27,8 +46,23 @@ resourceGroup ID sample:
 Combined strings
 param storageAccountName string = 'toylaunch${uniqueString(resourceGroup().id)}'
 
+Default RG to deploy to:
+Set-AzDefault -ResourceGroupName learn-cd405dd5-06f3-46af-b23c-e616c51640ed
 
+Managed Identities:
+https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview
 
+Bicep Article:
+https://nicksnettravels.builttoroam.com/first-bicep/
+https://nicksnettravels.builttoroam.com/project-bicep-azure-devops/
+https://devkimchi.com/2020/09/30/github-actions-and-arm-template-toolkit-to-test-bicep-codes/
 
+Deploy ARM templates by using GitHub Actions
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/deploy-github-actions
+
+Intellisense; CTRL+Space
+
+Test a deployment:
+-WhatIf
 
 
