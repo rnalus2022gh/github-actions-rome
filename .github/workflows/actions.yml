@@ -15,10 +15,10 @@ jobs:
         run: |
           pwd
           ls -a
-      - name: Simple JS Action
+      - name: Simple JavaScript Action
         id: greet 
-        uses: actions/hello-world-javascript-action@v1
+        uses: actions/hello-world-javascript-action@v1.1
         with: 
-          who-to-greet: Rome
+          who-to-greet: Rome@v1.1
       - name: Log Greeting Time
         run: echo "${{ steps.greet.outputs.time }}"
