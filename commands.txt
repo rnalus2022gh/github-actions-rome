@@ -1,9 +1,7 @@
 https://www.youtube.com/watch?v=RGOj5yH7evk
 create folder locally
 git init
-git add .
-git commit -m "comment" -m "description"
-git remote add origin git@github.com:rnalus2022gh/demo-repo.git
+git remote add origin git@github.com:rnalus2022gh/github-actions-rome.git
 git remote -v
 git push or #git push -u origin master (upstream shortcut)
 
