@@ -7,6 +7,8 @@ git push or #git push -u origin master (upstream shortcut)
 
 Managing workflow runs - Enabling-debug-logging
 https://docs.github.com/en/actions/managing-workflow-runs#enabling-debug-logging
+Checkout Usage
+https://github.com/actions/checkout#usage
 
 # copy sh github repo address
 git remote add origin git@github.com:rnalus2022gh/github-actions-rome.git
