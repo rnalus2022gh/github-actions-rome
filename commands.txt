@@ -6,6 +6,13 @@ git remote -v
 git push or #git push -u origin master (upstream shortcut)
 
 ======================REFERENCES
+Youtube training:
+https://www.youtube.com/watch?v=QqP9MN0jGCs&t=5s
+Deploying .NET Core App using GitHub Action and Visual Studio Code #CICD | #DearAzure | AZ-INDIA
+https://github.com/svswaminathan/blazor-server-githubactions-demo
+https://swaminathanvetri.in/2020/04/11/my-session-on-ci-cd-with-github-actions/
+
+
 Managing workflow runs - Enabling-debug-logging
 https://docs.github.com/en/actions/managing-workflow-runs#enabling-debug-logging
 Checkout Usage
