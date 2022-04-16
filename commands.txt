@@ -13,6 +13,9 @@ Try Locally: nektos/act
 github/super-linter
 
 MS Learn
+Build and deploy applications to Azure by using GitHub Actions 
+https://docs.microsoft.com/en-us/learn/modules/github-actions-cd/1-introduction
+
 https://docs.microsoft.com/en-us/learn/paths/automate-workflow-github-actions/
 https://docs.github.com/en/get-started/quickstart/github-flow
 https://docs.github.com/en/get-started/using-git
@@ -30,6 +33,10 @@ Deploying .NET Core App using GitHub Action and Visual Studio Code #CICD | #Dear
 https://github.com/svswaminathan/blazor-server-githubactions-demo
 https://swaminathanvetri.in/2020/04/11/my-session-on-ci-cd-with-github-actions/
 >>>>>>> 1e4f4a3edf65aa2d1ec11672d64eed5ba02994a3
+
+Deploying Blazor WebAssembly app with WebAPI using GitHub Actions(CI/CD) for FREE - EP35
+https://www.youtube.com/watch?v=m7DqtL0WIV0
+https://github.com/CuriousDrive/BlazingChat
 
 
 Managing workflow runs - Enabling-debug-logging
