@@ -6,6 +6,24 @@ git remote -v
 git push or #git push -u origin master (upstream shortcut)
 
 ======================REFERENCES
+ACTIONS_STEP_DEBUG
+ACTIONS_RUNNER_DEBUG
+Try Locally: nektos/act
+github/super-linter
+
+MS Learn
+https://docs.microsoft.com/en-us/learn/paths/automate-workflow-github-actions/
+https://docs.github.com/en/get-started/quickstart/github-flow
+https://docs.github.com/en/get-started/using-git
+https://docs.github.com/en/get-started/quickstart
+https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues
+https://github.com/notifications
+https://help.github.com/github/collaborating-with-issues-and-pull-requests/about-branches
+https://help.github.com/desktop/contributing-to-projects/committing-and-reviewing-changes-to-your-project
+https://help.github.com/github/collaborating-with-issues-and-pull-requests/about-pull-requests
+https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/about-labels
+
+
 Managing workflow runs - Enabling-debug-logging
 https://docs.github.com/en/actions/managing-workflow-runs#enabling-debug-logging
 Checkout Usage

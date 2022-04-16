@@ -1,0 +1,18 @@
+Create React App
+https://create-react-app.dev/docs/getting-started
+
+npm run start
+http://localhost:3000/
+
+npm run test
+npm run build
+CI=true
+npm run test
+
+npm run test -- --coverage
+
+npm run build
+
+Surge:
+npm install --global surge
+surge (run on react folder)
