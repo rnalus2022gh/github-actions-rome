@@ -1,4 +1,4 @@
-https://www.youtube.com/watch?v=RGOj5yH7evk
+https://www.youtube.com/watch?v=RGOj5yH7evk -- Git and GitHub for Beginners - Crash Course
 create folder locally
 git init
 git remote add origin git@github.com:rnalus2022gh/github-actions-rome.git
@@ -6,6 +6,7 @@ git remote -v
 git push or #git push -u origin master (upstream shortcut)
 
 ======================REFERENCES
+<<<<<<< HEAD
 ACTIONS_STEP_DEBUG
 ACTIONS_RUNNER_DEBUG
 Try Locally: nektos/act
@@ -22,6 +23,13 @@ https://help.github.com/github/collaborating-with-issues-and-pull-requests/about
 https://help.github.com/desktop/contributing-to-projects/committing-and-reviewing-changes-to-your-project
 https://help.github.com/github/collaborating-with-issues-and-pull-requests/about-pull-requests
 https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/about-labels
+=======
+Youtube training:
+https://www.youtube.com/watch?v=QqP9MN0jGCs&t=5s
+Deploying .NET Core App using GitHub Action and Visual Studio Code #CICD | #DearAzure | AZ-INDIA
+https://github.com/svswaminathan/blazor-server-githubactions-demo
+https://swaminathanvetri.in/2020/04/11/my-session-on-ci-cd-with-github-actions/
+>>>>>>> 1e4f4a3edf65aa2d1ec11672d64eed5ba02994a3
 
 
 Managing workflow runs - Enabling-debug-logging
