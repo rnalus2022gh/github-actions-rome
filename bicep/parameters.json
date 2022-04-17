@@ -1,0 +1,23 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "value": "parametersstdemorg14"
+        },
+        "sku_name": {
+            "value": "Standard_LRS"
+        },
+        "allowBlobPublicAccess": {
+            "value": false
+        },
+        "minimumTlsVersion": {
+            "value": "TLS1_2"
+        },
+        "location": {
+            "value": "southeast asia"
+        }
+    }
+}
+
+// az deployment group create --name test-deployment-two --resource-group deleteme --template-file  storage_accnt.bicep --parameters parameters.json 

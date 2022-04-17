@@ -79,3 +79,6 @@ az bicep build --file-names/ -f main.bicep or az bicep build .\main.bicep
 # generates a json file to verify
 az deployment group create --resource-group deleteme --template-file .\mainbicep
 # https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/deploy-cli
+
+az bicep build -f storage_accnt.bicep 
+az deployment group create --name test-deployment --resource-group deleteme --template-file  storage_accnt.bicep --parameters location='east asia' name='deletremestdemorg79'
