@@ -7,6 +7,12 @@ https://www.youtube.com/watch?v=_yvb6NVx61Y
 Azure Bicep March 2021: Learn everything about the next generation of ARM Templates
 https://www.youtube.com/watch?v=l85qv_1N2_A
 
+Deploy to App Service using GitHub Actions
+https://docs.microsoft.com/en-us/azure/app-service/deploy-github-actions?tabs=applevel
+
+azure-docs/articles/app-service/deploy-github-actions.md
+https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/app-service/deploy-github-actions.md
+
 Git Azure Bicep
 https://github.com/Azure/bicep
 https://github.com/Azure/bicep/tree/main/docs/examples
@@ -63,6 +69,6 @@ https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/deploy-g
 Intellisense; CTRL+Space
 
 Test a deployment:
--WhatIf
+--WhatIf
 
 
