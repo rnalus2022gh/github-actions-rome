@@ -1,3 +1,6 @@
+Azure Bicep in github
+https://github.com/Azure/bicep
+
 Bicep MS Learn
 https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/learn-bicep
 
