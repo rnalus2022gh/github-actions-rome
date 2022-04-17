@@ -34,6 +34,9 @@ https://github.com/svswaminathan/blazor-server-githubactions-demo
 https://swaminathanvetri.in/2020/04/11/my-session-on-ci-cd-with-github-actions/
 >>>>>>> 1e4f4a3edf65aa2d1ec11672d64eed5ba02994a3
 
+Playlist: Bee a Learner
+https://www.youtube.com/channel/UC8z2lBUxDeD2BWGlCCV5pRw/playlists
+
 Deploying Blazor WebAssembly app with WebAPI using GitHub Actions(CI/CD) for FREE - EP35
 https://www.youtube.com/watch?v=m7DqtL0WIV0
 https://github.com/CuriousDrive/BlazingChat
