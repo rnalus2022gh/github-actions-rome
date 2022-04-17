@@ -71,4 +71,11 @@ Intellisense; CTRL+Space
 Test a deployment:
 --WhatIf
 
-
+az log
+az account show
+* az account set --subscriptions "xxx"
+* az group Default 
+az bicep build --file-names/ -f main.bicep or az bicep build .\main.bicep
+# generates a json file to verify
+az deployment group create --resource-group deleteme --template-file .\mainbicep
+# https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/deploy-cli
