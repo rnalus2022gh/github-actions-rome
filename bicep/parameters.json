@@ -19,5 +19,3 @@
         }
     }
 }
-
-// az deployment group create --name test-deployment-two --resource-group deleteme --template-file  storage_accnt.bicep --parameters parameters.json 

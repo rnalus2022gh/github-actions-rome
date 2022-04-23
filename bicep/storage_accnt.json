@@ -4,8 +4,8 @@
   "metadata": {
     "_generator": {
       "name": "bicep",
-      "version": "0.5.6.12127",
-      "templateHash": "5600056472081702175"
+      "version": "0.4.451.19169",
+      "templateHash": "1591853744843047593"
     }
   },
   "parameters": {
@@ -41,6 +41,7 @@
       ]
     }
   },
+  "functions": [],
   "resources": [
     {
       "type": "Microsoft.Storage/storageAccounts",

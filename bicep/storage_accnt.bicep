@@ -15,6 +15,9 @@ resource storageaccount 'Microsoft.Storage/storageAccounts@2021-08-01' = {
 
 // https://www.youtube.com/watch?v=6EQ57JDgDuY&list=PLm0VCJgNxnpduY86JQVqd5wbiyd2xWe7e&index=4
 
+// Azure Bicep March 2021: Learn everything about the next generation of ARM Templates
+//https://www.youtube.com/watch?v=l85qv_1N2_A&t=433s
+
 /*
 @minLength(3)
 @maxLength(24)
