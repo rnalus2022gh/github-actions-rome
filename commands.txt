@@ -124,3 +124,6 @@ git reset c8538c5f4b143f5a3f5a8a6d81802985d8d10d68 (unstage after this commit)
 git reset --hard c8538c5f4b143f5a3f5a8a6d81802985d8d10d68 (completely remove files)
 
 FORKING
+---------------
+az group create --name bsanassg01-rg --location 'southeastasia'
+az deployment group create --resource-group bsanassg01-rg --template-file bsanassg01.bicep 
